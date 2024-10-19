@@ -1,0 +1,50 @@
+ .mid{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 750px;
+    gap: 5px;
+    background-color: #2d3250;
+    color: white;
+    text-align: justify;
+    margin-left: 5em;
+    
+    
+ }
+
+ body{
+    background-color: #2d3250;
+    color: white;
+   margin: 0;
+   overflow: hidden;
+ }
+
+ .img2 {
+    width:964px;
+    height:964px;
+    float: right;
+    object-fit: cover;
+ }
+
+ input{
+    width: 225px;
+    border-radius: 40px;
+    height: 25px;
+    border: none;
+ }
+
+ button{
+    width: 225px;
+    border-radius: 30em;
+    height: 35px;
+    color: white;
+    background-color: #f9b17a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5 ease-in-out;
+ }
+
+ button:hover{
+    background-color: #01c38d;
+ }
+

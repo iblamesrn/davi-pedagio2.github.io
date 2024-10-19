@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pedagio</title>
+</head>
+<body>
+
+    <div class="img">
+
+        <img class="img2" src="assets/images/estrada 2.jpg">
+
+    </div>
+
+    <div class="mid">
+
+        <h2>Para saber o preço a ser pago no Pedágio por favor responda as caixas abaixo com as informações que forem pedidas</h2>
+
+        <label>Número da placa</label>
+        <input maxlength="7" id="placaCarro" type="text" placeholder="EX:ABCD-123">
+
+        <label>A hora na qual o veículo passou pela primeira parada</label>
+        <input type="time" id="horaSaida">
+
+        <label>A hora na qual o veículo passou pela segunda parada</label>
+        <input type="time" id="horaChegada">
+
+        <label>Caso queira acessar a tabela de preços com base na velocidade média do veículo clique no botão abaixo</label>
+        <button id="bnt" onclick="">Calcular</button>
+
+        <label>Clique no botão abaixo para limpar os resultados exibidos</label>
+        <button id="limparResultados">Limpar Resultados</button>
+
+        <label>Clique no botão abaixo para exibir um resumo do dia</label>
+        <button id="exibirResumo">Exibir Resumo</button>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
